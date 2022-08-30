@@ -7,4 +7,28 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mobilephoto';
+
+  public appPages = [
+
+    {
+
+      title: 'Take a photo',
+
+      url: '/capture',
+
+      icon: 'camera'
+
+    },
+
+    {
+
+      title: 'View gallery',
+
+      url: '/view',
+
+      icon: 'globe'
+
+    }
+
+  ];
 }
